@@ -13,3 +13,7 @@ def login(requst):
 def book(request):
     print('这是第三个视图函数')
     return HttpResponse('去问问请问的')
+
+def asd(requset):
+    print('qwewqd')
+    return HttpResponse('qwqd')
